@@ -1,0 +1,72 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Helvetica';
+  font-size: 18px;
+  margin: 20px 20px;
+  color: rgb(30,30,30);
+  font-weight: lighter;
+  h1 {
+    font-weight: normal;
+    font-size: 40px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  hr {
+    margin: 40px 0px;
+  }
+  a {
+    text-decoration: none;
+    color: #2753A5;
+    &:visited {
+      color: #2753A5;
+    }
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+.task-details {
+  background-color: rgba(240,240,240, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    background-color: #ddd;
+    opacity: 0.8;
+    border-radius: 5px;
+    border: 1px solid rgba(80,80,80, 0.5);
+    color: rgb(30,30,30);
+    padding: 10px 20px;
+    &:hover {
+      opacity: 1;
+    }
+    &:visited{
+      color: rgb(30,30,30);
+    }
+  }
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.form-check-label {
+  font-weight: lighter;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
